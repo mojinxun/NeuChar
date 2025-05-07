@@ -1,7 +1,7 @@
 ﻿#region Apache License Version 2.0
 /*----------------------------------------------------------------
 
-Copyright 2023 Suzhou Senparc Network Technology Co.,Ltd.
+Copyright 2025 Suzhou Senparc Network Technology Co.,Ltd.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
 except in compliance with the License. You may obtain a copy of the License at
@@ -19,7 +19,7 @@ Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
 #endregion Apache License Version 2.0
 
 /*----------------------------------------------------------------
-    Copyright (C) 2023 Senparc
+    Copyright (C) 2025 Senparc
     
     文件名：WeixinContext.cs
     文件功能描述：微信消息上下文（全局）
@@ -220,9 +220,8 @@ namespace Senparc.NeuChar.Context
             MaxRecordCount = MessageContextGlobalConfig.MaxRecordCount;
         }
 
-
         /// <summary>
-        /// 获取MessageContext
+        /// 获取 MessageContext
         /// </summary>
         /// <param name="appId">主体id（企业id，公众平台主体appid 用于分隔缓存数据）</param>
         /// <param name="userName">用户名（OpenId）</param>

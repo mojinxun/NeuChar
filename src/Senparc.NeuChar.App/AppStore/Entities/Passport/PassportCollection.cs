@@ -19,7 +19,7 @@ Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
 #endregion Apache License Version 2.0
 
 /*----------------------------------------------------------------
-    Copyright (C) 2023 Senparc
+    Copyright (C) 2025 Senparc
   
     文件名：PassportCollection.cs
     文件功能描述：同时管理多个应用的Passport的容器
@@ -38,7 +38,7 @@ namespace Senparc.NeuChar.App.AppStore
     public class PassportCollection : Dictionary<string, PassportBag>
     {
         /// <summary>
-        /// 统一URL前缀，如http://api.weiweihi.com:8080/App/Api
+        /// 统一URL前缀，如 https://www.neuchar.com/App/Api
         /// </summary>
         public string BasicUrl { get; set; }
         public string MarketingToolUrl { get; set; }

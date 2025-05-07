@@ -1,7 +1,7 @@
 ﻿#region Apache License Version 2.0
 /*----------------------------------------------------------------
 
-Copyright 2023 Suzhou Senparc Network Technology Co.,Ltd.
+Copyright 2025 Suzhou Senparc Network Technology Co.,Ltd.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
 except in compliance with the License. You may obtain a copy of the License at
@@ -19,7 +19,7 @@ Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
 #endregion Apache License Version 2.0
 
 /*----------------------------------------------------------------
-    Copyright (C) 2023 Senparc
+    Copyright (C) 2025 Senparc
     
     文件名：MessageHandler.cs
     文件功能描述：微信请求的集中处理方法
@@ -146,7 +146,7 @@ namespace Senparc.NeuChar.MessageHandlers
 
 
         /// <summary>
-        /// 延迟载入的上下文对象，存放在内存中。注意：使用本地内存缓存时，会每次都花心，等效于 GetCurrentMessageContext()；使用分布式缓存时，不能保证此对象是实时的，如需获取实时对象，请使用 GetCurrentMessageContext() 方法
+        /// 延迟载入的上下文对象，存放在内存中。注意：使用本地内存缓存时，会每次都刷新,等效于 GetCurrentMessageContext()；使用分布式缓存时，不能保证此对象是实时的，如需获取实时对象，请使用 GetCurrentMessageContext() 方法
         /// </summary>
         public async Task<TMC> GetUnsafeMessageContext()
         {
